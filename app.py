@@ -28,6 +28,8 @@ def initialize_db():
     conn.commit()
     conn.close()
 
+initialize_db()
+
 
 HTML = """
 <!DOCTYPE html>
